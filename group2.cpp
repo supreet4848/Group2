@@ -52,12 +52,7 @@ int main()
         cout<<"\n Add 3 Drinks of your choice :";/*you have to select any three drinks*/
         cout<<"\n -------------------------------- ";
         i=1;
-        while(i<=3)
-        {
-            cout<<"\n Add "<<i<<" Drink : ";
-           cin >>topings;
-            i++;
-        }
+        
         amount=amount+15;
         cout<<"\n Please Pay = $"<<amount;
         cout<<"\n Thanks for your VISIT :) ";
