@@ -85,3 +85,40 @@ int main()
         cin >>topings;
         }
         amount=amount+15;
+         cout<<"\n -------------------------------- ";
+        cout<<"\n Add 3 Drinks of your choice :";
+            i=1;
+            while(i<=3)
+            {
+            cout<<"\n Add "<<i<<" Drink : ";
+            cin >>topings;
+            i++;
+            }
+            /*loops and formulas for price*/
+        amount=amount+15;
+        cout<<"\n Please Pay = $"<<amount;
+        cout<<"\n Thanks for your VISIT :) ";
+        }
+        else if(size=='l' || size=='L')
+        {
+        amount=amount+200;
+        cout<<"\n -------------------------------- ";
+        cout<<"\n V ..... Veg : ";
+        cout<<"\n N ..... Non - Veg :";
+        cout<<"\n Choose Base : ";
+        cin>>base;
+        cout<<"\n Do you Like to Add Dips ";
+        cout<<"\n Enter Y/N ";
+        cin>>ch;
+            if(ch=='y' || ch=='Y')
+            {
+            amount=amount+10;
+            }
+        cout<<"\n -------------------------------- ";
+        cout<<"\n Add 3 Topings of your choice :";
+        for(i=1;i<=3;i++)
+        {
+        cout<<"\n Add "<<i<<" Toping : ";
+        cin >>topings;
+        }
+        amount=amount+15;
