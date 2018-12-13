@@ -135,3 +135,12 @@ int main()
         cout<<"\n Please Pay = $"<<amount;
         cout<<"\n Thanks for your VISIT :) ";
         }
+     else
+        {
+        cout<<"\n You Enter Wrong Choice, Please Try Again : ";
+        goto START;
+        /*will start from first step*/
+    }
+
+    return 0;
+}
