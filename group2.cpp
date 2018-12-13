@@ -41,3 +41,21 @@ int main()
         {
             amount=amount+10;
         }
+        cout<<"\n -------------------------------- ";
+        cout<<"\n Add 3 Topings of your choice :"; /*you have to select any three topings*/
+        for(i=1;i<=3;i++)
+        {
+            cout<<"\n Add "<<i<<" Topings : ";
+            cin >>topings;
+        }
+        amount=amount+15;
+        cout<<"\n Add 3 Drinks of your choice :";/*you have to select any three drinks*/
+        cout<<"\n -------------------------------- ";
+        i=1;
+        while(i<=3)
+        {
+            cout<<"\n Add "<<i<<" Drink : ";
+           cin >>topings;
+            i++;
+        }
+        amount=amount+15;
