@@ -122,3 +122,16 @@ int main()
         cin >>topings;
         }
         amount=amount+15;
+        cout<<"\n -------------------------------- ";
+        cout<<"\n Add 3 Drinks of your choice :";
+            i=1;
+            while(i<=3)
+            {
+            cout<<"\n Add "<<i<<" Drink : ";
+            cin >>drink;
+            i++;
+            }
+        amount=amount+15;
+        cout<<"\n Please Pay = $"<<amount;
+        cout<<"\n Thanks for your VISIT :) ";
+        }
