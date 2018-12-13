@@ -18,3 +18,26 @@ int main()
     cout<<"\n 4..... Topings: $5 Each :";
     cout<<"\n 5..... Cold Drink: $5 Each :";
     cout<<"\n 6..... Dips: $10 :";
+    cout<<"\n -------------------------------- ";
+    cout<<"\n Enter Pizza Size : "; /*select pizza size*/
+    cout<<"\n -------------------------------- ";
+    cout<<"\n S ...... Small :";
+    cout<<"\n M ...... Medium :";
+    cout<<"\n L .....  Large :";
+    cout<<"\n Choose Size : ";
+    cin>>size; 
+    if(size=='s' || size=='S')
+    {
+        amount=amount+100;
+        cout<<"\n -------------------------------- ";
+        cout<<"\n V ..... Veg : "; /*select base*/
+        cout<<"\n N ..... Non - Veg :";
+        cout<<"\n Choose Base : ";
+        cin>>base;
+        cout<<"\n Do you Like to Add Dips ";/*enter yes and no to add dips*/
+        cout<<"\n Enter Y/N ";
+        cin>>ch;
+        if(ch=='y' || ch=='Y')
+        {
+            amount=amount+10;
+        }
